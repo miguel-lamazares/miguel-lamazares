@@ -1,6 +1,7 @@
 ## Hello, i'm Miguel Lamazares.
 science computer student 🧑🏻‍💻.
 I'm studying and practicing the following tools; HTML, CSS and JavaScript.
+
 English b1
 🇧🇷/🇪🇸
 
