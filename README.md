@@ -1,5 +1,5 @@
 # 👋 Hello, I'm Miguel Lamazares
-About Me
+### About Me
 I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.
 
 ## 🌎 Languages
