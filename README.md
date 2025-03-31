@@ -23,10 +23,10 @@ Currently Studying: Game Development & Web Programming
 ♟️ Chess Game in C – A chess game with full rule implementation and challenge modes.
 
 # 📫 Contact
-* 📧 Email: [contatomiguellamazares@gmail.com]
-* 🔗 LinkedIn: [www.linkedin.com/in/miguel-lamazares-13571b324]
-* 🐙 GitHub: [github.com/Dexzn08]
-* 📸 Instagram: [instagram.com/miguel.lamazx/]
+* ### [📧 Email](contatomiguellamazares@gmail.com)
+* ### [🔗 LinkedIn](www.linkedin.com/in/miguel-lamazares-13571b324)
+* ### [🐙 GitHub](github.com/Dexzn08)
+* ### [📸 Instagram](instagram.com/miguel.lamazx/)
 
 Always open to collaborations and new ideas! 🚀
 
