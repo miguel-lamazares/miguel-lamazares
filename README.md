@@ -1,10 +1,10 @@
 ## Hello, i'm Miguel Lamazares.
-### Sobre mim
+### About me
 
 I'm a computer science student, I am currently improving my programming skills🧑🏻‍💻.
 I'm studying and practicing the following tools: HTML, CSS and JavaScript.
 
-languages
+languages.
 portuguese native
 English b1
 
