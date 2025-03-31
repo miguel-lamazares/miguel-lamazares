@@ -1,26 +1,33 @@
-## Hello, i'm Miguel Lamazares.
-### About me
+👋 Hello, I'm Miguel Lamazares
+About Me
+I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.
 
- I'm a computer science student, I am currently improving my programming skills, i'm studying and practicing the following tools: HTML, CSS and JavaScript 🧑🏻‍💻.
+🌎 Languages
+Portuguese (Native)
 
-languages.
-* Portuguese native
-* English b1
+English (B1)
 
-🛂 🇪🇸/🇧🇷
+Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷
 
-💻 Technologies and skills
+💻 Technologies & Skills
+Languages: HTML, CSS, JavaScript
 
-Languages: HTML, CSS and JavaScript
+Knowledge in: Hardware & Software
 
-Knowledge in: hardware and software
+Currently Studying: Game Development & Web Programming
 
-Studying: Development of Games and Web Programming.
-  
 🚀 Projects
+🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.
 
-* 🏎️ DrifWiki challenge to create an interactive website with animations.
-* ♟️ Chess game in C with complete rules and challenges
+♟️ Chess Game in C – A chess game with full rule implementation and challenge modes.
+
+📫 Contact
+📧 Email: [contatomiguellamazares@gmail.com]
+🔗 LinkedIn: [www.linkedin.com/in/miguel-lamazares-13571b324]
+🐙 GitHub: [github.com/Dexzn08]
+📸 Instagram: [instagram.com/miguel.lamazx/]
+
+Always open to collaborations and new ideas! 🚀
 
 📫 contact
 
