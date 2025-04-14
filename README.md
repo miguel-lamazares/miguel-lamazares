@@ -17,6 +17,8 @@ Knowledge in: Hardware & Software
 
 Currently Studying: Game Development & Web Programming
 
+![snake gif](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/output/github-contribution-grid-snake.svg)
+
 ## 🚀 Projects
 🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.
 
