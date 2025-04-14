@@ -32,9 +32,4 @@ Always open to collaborations and new ideas! 🚀
 
 <img src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/giphy.gif?raw=true.gif" width="300" style="position: fixed; bottom: 0; right: 0;">
 
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dexzn08/Dexzn08/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dexzn08/Dexzn08/output/github-contribution-grid-snake-dark.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mari4souza/mari4souza/output/github-contribution-grid-snake.svg">
-</picture>
-<br><br>
+![snake gif](https://github.com/Dexzn08/Dexzn08/blob/output/github-contribution-grid-snake.svg)
