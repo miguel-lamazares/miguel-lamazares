@@ -33,3 +33,5 @@ Always open to collaborations and new ideas! 🚀
 <img src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/giphy.gif?raw=true.gif" width="300" style="position: fixed; bottom: 0; right: 0;">
 
 ![snake gif](https://github.com/Dexzn08/Dexzn08/blob/output/github-contribution-grid-snake.svg)
+
+[![readme](https://github-readme-stats.vercel.app/api/pin/?username=Dexzn08&repo=Dexzn08&thene=react)](https://github.com/Dexzn08/Dexzn08)
