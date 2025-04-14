@@ -1,9 +1,9 @@
-<p align="center"># 👋 Hello, I'm Miguel Lamazares</p>
+<p align="center"> <h1>👋 Hello, I'm Miguel Lamazares</h1></p>
 
 ###
 
 <p align="center">
-### About Me<br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
+ <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
 
 ###
 
@@ -13,26 +13,18 @@
 
 ###
 
-<br clear="both">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
-</picture>
-
-###
 
 <img align="right" height="150" src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/giphy.gif?raw=true.gif"  />
 
 ###
 
-<p align="left">## 🌎 Languages<br><br>* Portuguese (Native)<br><br>* English (B1)<br><br>
-### Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</p>
+<p align="left"><h3> 🌎 Languages</h3><br><br> Portuguese (Native)<br><br> English (B1)<br><br>
+<h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4></p>
 
 ###
 
-<p align="left">## 💻 Technologies & Skills<br>Languages: HTML, CSS, JavaScript<br><br>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
+
+<p align="left"><h3> 💻 Technologies & Skills</h3><br>Languages: HTML, CSS, JavaScript<br><br>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
 
 ###
 
@@ -46,7 +38,7 @@
 
 ###
 
-<p align="left">## 🚀 Projects<br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br><br>♟️ Chess Game in C – A chess game with full rule implementation and challenge modes.</p>
+<p align="left"><h3> 🚀 Projects</h3><br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br><br>♟️ Chess Game in C – A chess game with full rule implementation and challenge modes.</p>
 
 ###
 
@@ -54,23 +46,36 @@
 
 ###
 
-<p align="left"># 📫 Contact</p>
+<p align="left"><h2> 📫 Contact</h2></p>
 
 ###
 
 <div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  <a href="https://www.linkedin.com/in/miguel-lamazares-13571b324/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />
+  </a>
+
+  <a href="https://discord.com/users/ID_DO_SEU_DISCORD" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
+  </a>
+
+  <a href="https://www.instagram.com/miguel.lamazx/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
+  </a>
+
+  <a href="mailto:contatomiguellamazares@gmail.com">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
+  </a>
 </div>
+
 
 ###
 
 <div align="right">
-  <a href="https://open.spotify.com/user/Dexzn">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Dexzn&count=5&unique=false" alt="Spotify recently played"  />
+  <a href="https://open.spotify.com/user/Dexzn" target="_blank">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Dexzn&count=5&unique=false" alt="Spotify recently played" width="400" height="auto" />
   </a>
 </div>
+
 
 ###
