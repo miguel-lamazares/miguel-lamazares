@@ -32,7 +32,7 @@ Always open to collaborations and new ideas! 🚀
 
 <img src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/giphy.gif?raw=true.gif" width="300" style="position: fixed; bottom: 0; right: 0;">
 
-![Snake animation](https://github.com/Dexzn08/Dexzn08/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/miguel-lamazares/miguel-lamazares/output/github-contribution-grid-snake.svg)
 
 
 
