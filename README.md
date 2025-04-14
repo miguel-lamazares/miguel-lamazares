@@ -23,6 +23,14 @@
 
 ###
 
+<div align="right">
+  <!--<a href="https://open.spotify.com/user/Dexzn" target="_blank">-->
+    <!--<img src="https://spotify-recently-played-readme.vercel.app/api?user=Dexzn&count=5&unique=false" alt="Spotify recently played" width="400" height="auto" />-->
+  </a>
+ <img src="https://spotify-recently-played-readme.vercel.app/api?user=dkrqh453gvuu6hhpmlq3ki39x" alt="Spotify recently played" />
+</div>
+
+###
 
 <p align="left"><h3> 💻 Technologies & Skills</h3><br>Languages: HTML, CSS, JavaScript<br><br>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
 
@@ -70,12 +78,6 @@
 
 
 ###
-
-<div align="right">
-  <a href="https://open.spotify.com/user/Dexzn" target="_blank">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Dexzn&count=5&unique=false" alt="Spotify recently played" width="400" height="auto" />
-  </a>
-</div>
 
 
 ###
