@@ -24,10 +24,10 @@
 ###
 
 <div align="right">
-  <!--<a href="https://open.spotify.com/user/Dexzn" target="_blank">-->
-    <!--<img src="https://spotify-recently-played-readme.vercel.app/api?user=Dexzn&count=5&unique=false" alt="Spotify recently played" width="400" height="auto" />-->
+  <a href="https://open.spotify.com/user/Dexzn" target="_blank">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Dexzn&count=5&unique=false" alt="Spotify recently played" width="400" height="auto" />
   </a>
- <img src="https://spotify-recently-played-readme.vercel.app/api?user=dkrqh453gvuu6hhpmlq3ki39x" alt="Spotify recently played" />
+ <!--<img src="https://spotify-recently-played-readme.vercel.app/api?user=dkrqh453gvuu6hhpmlq3ki39x" alt="Spotify recently played" />-->
 </div>
 
 ###
