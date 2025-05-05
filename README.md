@@ -1,3 +1,5 @@
+<p aling="center"> <h1>
+コンピュータサイエンス</h1></p>
 <p align="center"> <h1>👋 Hello, I'm Miguel Lamazares</h1></p>
 
 ###
@@ -64,8 +66,9 @@
 <p align="left"><h2> 📫 Contact</h2></p>
 
 ###
+<img src="https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram">
 
-<div align="left">
+<!--<div align="left">
   <a href="https://www.linkedin.com/in/miguel-lamazares-13571b324/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />
   </a>
@@ -81,7 +84,7 @@
   <a href="mailto:contatomiguellamazares@gmail.com">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
   </a>
-</div>
+</div>-->
 
 
 ###
