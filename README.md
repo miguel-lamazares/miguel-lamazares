@@ -1,17 +1,22 @@
-<p aling="center"> <h1>
-コンピュータサイエンス</h1></p>
-<p align="center"> <h1>👋 Hello, I'm Miguel Lamazares</h1></p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=69239e&reversal=true&textBg=false">
 
-###
+<div align="center">
+ <samp>
+ <b>コンピュータサイエンス</b>
+ <br>👋 Hello, I'm Miguel Lamazares<br>
+ </samp>
+</div>
+<div align="center">
+  <img src="https://profile-counter.glitch.me/miguel-lamazares/count.svg?"  />
+</div>
+
 
 <p align="center">
  <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
 
 ###
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/miguel-lamazares/count.svg?"  />
-</div>
+
 
 ###
 
