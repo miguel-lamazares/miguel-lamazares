@@ -17,12 +17,18 @@
 <img src="csdance"/>
 </div>
 
+
+<details align="center">
+<summary>
+<sump>
+<b>
+More Info
+</b>
+</sump>
+</summary>
+
 <p align="center">
  <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
-
-###
-
-
 
 ###
 
@@ -45,9 +51,7 @@
 
 ###
 
-<p align="left"><h3> 💻 Technologies & Skills</h3><br>Languages: HTML, CSS, JavaScript<br><br>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
-
-###
+<p align="left"><h3> 💻 Technologies & Skills</h3></p>
 
 <div align="center" style="display: inline_block"><br>
   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg" />
@@ -59,7 +63,9 @@
   
 </div>
 
-###
+<br>
+<p>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
+
 
 <p align="left"><h3> 🚀 Projects</h3><br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br><br>♟️ Chess Game in C – A chess game with full rule implementation and challenge modes.</p>
 
@@ -75,17 +81,19 @@
 </picture>
 
 ###
+</details>
 <div>
 <p align="left"><h2> 📫 Contact</h2></p>
 </div>
 
-###
+
 [![Instagram](https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram&logoColor=000000)](https://www.instagram.com/miguel.lamazx/)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-69239e?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/miguel-lamazares-13571b324/)
 [![Discord](https://img.shields.io/badge/Discord-69239e?style=for-the-badge&logo=discord&logoColor=000000)](#)
 [![Gmail](https://img.shields.io/badge/email-69239e?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:contatomiguellamazares@gmail.com)
 [![Github](https://img.shields.io/badge/github-69239e?style=for-the-badge&logo=github&logoColor=000000)](#)
-[![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)]()
+[![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)](#)
+[![Linktree](https://img.shields.io/badge/linktree-69239e?style=for-the-badge&logo=linktree&logoColor=000000)](#)
 
-
+###
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=69239e&reversal=true&textBg=false&descAlign=51&descAlignY=100&section=footer">
