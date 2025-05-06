@@ -1,0 +1,32 @@
+name: Atualizar GIF
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  # Todos os dias às 12h UTC
+  workflow_dispatch:      # Também pode ser executado manualmente
+
+jobs:
+  update-gif:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar o repositório
+        uses: actions/checkout@v3
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Executar script de atualização
+        run: |
+          npm install
+          node update-gif.js
+
+      - name: Commit e push se houver mudança
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Atualiza gif aleatório"
+          git push
