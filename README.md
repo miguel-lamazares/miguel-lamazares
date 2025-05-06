@@ -17,6 +17,9 @@
 <img src="https://github.com/miguel-lamazares/miguel-lamazares/blob/main/gif%2Fcs2-dance.gif"/>
 </div>
 
+<br>
+<br>
+
 
 <details>
 <summary>
