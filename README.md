@@ -22,9 +22,9 @@
 
 
 <details>
-<summary>
+<summary align="center">
 <sump>
-<b align="center">
+<b>
 More Info
 </b>
 </sump>
