@@ -13,7 +13,7 @@
 <br>
 <br>
 
-<div>
+<div align="center">
 <img src="https://github.com/miguel-lamazares/miguel-lamazares/blob/main/gif%2Fcs2-dance.gif"/>
 </div>
 
