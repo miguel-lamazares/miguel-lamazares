@@ -31,7 +31,7 @@ More Info
 </summary>
 
 <p>
- <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
+ <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development, Web Programming and web designer.</p>
 
 ###
 
@@ -67,7 +67,7 @@ More Info
 </div>
 
 <br>
-<p>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
+<p>Knowledge in: Hardware & Software</p>
 
 
 <p align="left"><h3> 🚀 Projects</h3><br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br></p>
