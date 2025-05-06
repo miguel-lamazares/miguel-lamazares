@@ -85,7 +85,7 @@ More Info
 
 
 <div>
-<p align="center"><h2> 📫 Contact</h2></p>
+<p><h2 align="center"> 📫 Contact</h2></p>
 </div>
 
 
