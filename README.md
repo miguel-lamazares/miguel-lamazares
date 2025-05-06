@@ -13,6 +13,10 @@
 <br>
 <br>
 
+<div>
+<img src="csdance"/>
+</div>
+
 <p align="center">
  <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
 
@@ -69,28 +73,18 @@
 </picture>
 
 ###
-
+<div>
 <p align="left"><h2> 📫 Contact</h2></p>
+</div>
 
 ###
-<img src="https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram">
+[![Instagram](https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram&logoColor=000000)](https://www.instagram.com/miguel.lamazx/)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-69239e?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/miguel-lamazares-13571b324/)
+[![Discord](https://img.shields.io/badge/Discord-69239e?style=for-the-badge&logo=discord&logoColor=000000)](#)
+">
+[![Gmail](https://img.shields.io/badge/email-69239e?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:contatomiguellamazares@gmail.com)
+[![Github](https://img.shields.io/badge/github-69239e?style=for-the-badge&logo=github&logoColor=000000)](#)
+[![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)]()
 
-<!--<div align="left">
-  <a href="https://www.linkedin.com/in/miguel-lamazares-13571b324/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />
-  </a>
-
-  <a href="https://discord.com/users/Dexx.king#0217" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
-  </a>
-
-  <a href="https://www.instagram.com/miguel.lamazx/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
-  </a>
-
-  <a href="mailto:contatomiguellamazares@gmail.com">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
-  </a>
-</div>-->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=69239e&reversal=true&textBg=false&descAlign=51&descAlignY=100&section=footer">
