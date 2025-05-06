@@ -70,7 +70,7 @@ More Info
 <p>Knowledge in: Hardware & Software<br><br>Currently Studying: Game Development & Web Programming</p>
 
 
-<p align="left"><h3> 🚀 Projects</h3><br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br><br>♟️ Chess Game in C – A chess game with full rule implementation and challenge modes.</p>
+<p align="left"><h3> 🚀 Projects</h3><br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br></p>
 
 ###
 
