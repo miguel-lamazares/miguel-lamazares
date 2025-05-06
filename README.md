@@ -7,7 +7,7 @@
  </samp>
 </div>
 <div align="center">
-  <img src="https://profile-counter.glitch.me/miguel-lamazares/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/miguel-lamazares/count.svg?">
 </div>
 
 <br>
