@@ -81,7 +81,6 @@
 [![Instagram](https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram&logoColor=000000)](https://www.instagram.com/miguel.lamazx/)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-69239e?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/miguel-lamazares-13571b324/)
 [![Discord](https://img.shields.io/badge/Discord-69239e?style=for-the-badge&logo=discord&logoColor=000000)](#)
-">
 [![Gmail](https://img.shields.io/badge/email-69239e?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:contatomiguellamazares@gmail.com)
 [![Github](https://img.shields.io/badge/github-69239e?style=for-the-badge&logo=github&logoColor=000000)](#)
 [![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)]()
