@@ -27,7 +27,7 @@ More Info
 </sump>
 </summary>
 
-<p align="center">
+<p>
  <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
 
 ###
