@@ -82,9 +82,14 @@ More Info
 
 ###
 </details>
+
+
 <div>
 <p align="center"><h2> 📫 Contact</h2></p>
 </div>
+
+
+
 
 
 [![Instagram](https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram&logoColor=000000)](https://www.instagram.com/miguel.lamazx/)
@@ -95,5 +100,9 @@ More Info
 [![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)](#)
 [![Linktree](https://img.shields.io/badge/linktree-69239e?style=for-the-badge&logo=linktree&logoColor=000000)](#)
 
-###
+
+
+
+
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=69239e&reversal=true&textBg=false&descAlign=51&descAlignY=100&section=footer">
