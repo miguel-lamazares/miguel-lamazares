@@ -10,6 +10,8 @@
   <img src="https://profile-counter.glitch.me/miguel-lamazares/count.svg?"  />
 </div>
 
+<br>
+<br>
 
 <p align="center">
  <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development and Web Programming.</p>
@@ -91,8 +93,4 @@
   </a>
 </div>-->
 
-
-###
-
-
-###
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=69239e&reversal=true&textBg=false&descAlign=51&descAlignY=100&section=footer">
