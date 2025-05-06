@@ -13,8 +13,8 @@
 <br>
 <br>
 
-<div align="center" heigth="150">
-<img src="https://github.com/miguel-lamazares/miguel-lamazares/blob/main/gif%2Fcs2-dance.gif"/>
+<div align="center">
+<img heigth="150" src="https://github.com/miguel-lamazares/miguel-lamazares/blob/main/gif%2Fcs2-dance.gif"/>
 </div>
 
 <br>
