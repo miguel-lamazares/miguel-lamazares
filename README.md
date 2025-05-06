@@ -18,10 +18,10 @@
 </div>
 
 
-<details align="center">
+<details>
 <summary>
 <sump>
-<b>
+<b align="center">
 More Info
 </b>
 </sump>
