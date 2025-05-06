@@ -83,7 +83,7 @@ More Info
 ###
 </details>
 <div>
-<p align="left"><h2> 📫 Contact</h2></p>
+<p align="center"><h2> 📫 Contact</h2></p>
 </div>
 
 
