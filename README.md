@@ -38,7 +38,7 @@ More Info
 ###
 
 
-<img align="right" height="150" src="" />
+<img align="right" height="150" src="gif/1.gif"/>
 
 ###
 
