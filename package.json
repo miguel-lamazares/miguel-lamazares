@@ -1,0 +1,6 @@
+{
+  "name": "gif-updater",
+  "version": "1.0.0",
+  "main": "changeGif.js",
+  "license": "MIT"
+}
