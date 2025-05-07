@@ -42,8 +42,15 @@ More Info
 
 ###
 
-<p align="left"><h3> 🌎 Languages</h3><br> Portuguese (Native)<br> English (B1)<br>
-<h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4></p>
+<p>
+ <h3 align="center"> 🌎 Languages</h3>
+<div align="center"> 
+ <br> Portuguese (Native)
+ <br> English (B1) <br>
+<h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4>
+</div>
+</p>
+
 
 ###
 
@@ -67,11 +74,13 @@ More Info
   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Figma-Dark.svg" />
   
 </div>
+<div align="center">
+<p>
+ <h3> 🚀 Projects</h3>
+ <br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br>
+</p>
+</div>
 
-<p><h3 align="center"> 🚀 Projects</h3>
- <br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br></p>
-
-###
 
 <!--<img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />-->
 <br clear="both">
