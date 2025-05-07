@@ -14,7 +14,7 @@
 <br>
 
 <div align="center" id="gif-conteiner">
-<img heigth="150" src="gif/3.gif" alt="randow-gif"/>
+<img heigth="150" src="gif-principal.gif" alt="randow-gif"/>
 </div>
 
 <br>
