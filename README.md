@@ -52,15 +52,15 @@ More Info
 </p>
 
 
-###
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=miguel-lamazares&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
+<br>
+<div>
+      <div>
+          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=miguel-lamazares&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10000&theme=dracula&hide_border=true&order=2&custom_title=what%20i%20used%20most%20to%20create%20errors" height="150" alt="languages graph" />
+     </div>
 
-###
-<div align="right">
-  </a>
- <img src="https://spotify-recently-played-readme.vercel.app/api?user=dkrqh453gvuu6hhpmlq3ki39x" alt="Spotify recently played" />
+     <div>
+ <img align="" src="https://spotify-recently-played-readme.vercel.app/api?user=dkrqh453gvuu6hhpmlq3ki39x" alt="Spotify recently played" />
+    </div>
 </div>
 
 ###
