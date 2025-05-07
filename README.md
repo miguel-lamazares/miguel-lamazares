@@ -19,7 +19,9 @@
 
 <br>
 <br>
-
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&pause=1000&color=6E2169&center=true&width=435&lines=I'm+a+computer+science+student;I+study+web+development+and+web+design" alt="Typing SVG" /></a>
+</div>
 
 <details>
 <summary align="center">
@@ -93,7 +95,7 @@ More Info
 
 
 
-
+<div align="center">
 
 [![Instagram](https://img.shields.io/badge/instagram-69239e?style=for-the-badge&logo=instagram&logoColor=000000)](https://www.instagram.com/miguel.lamazx/)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-69239e?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/miguel-lamazares-13571b324/)
@@ -103,7 +105,7 @@ More Info
 [![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)](#)
 [![Linktree](https://img.shields.io/badge/linktree-69239e?style=for-the-badge&logo=linktree&logoColor=000000)](#)
 
-
+</div>
 
 
 
