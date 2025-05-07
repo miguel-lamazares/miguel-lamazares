@@ -14,7 +14,7 @@
 <br>
 
 <div align="center" id="gif-conteiner">
-<img heigth="150" src="https://github.com/miguel-lamazares/miguel-lamazares/blob/main/gif%2Fcs2-dance.gif" alt="randow-gif"/>
+<img heigth="150" src="gif-principal.gif" alt="randow-gif"/>
 </div>
 
 <br>
@@ -38,7 +38,7 @@ More Info
 ###
 
 
-<img align="right" height="150" src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/giphy.gif?raw=true.gif"  />
+<img align="right" height="150" src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/1.gif?raw=true.gif"  />
 
 ###
 
