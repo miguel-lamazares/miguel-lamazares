@@ -33,7 +33,7 @@ More Info
 </summary>
 
 <p>
- <h3>About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development, Web Programming and web designer.</p>
+ <h3 align="center">About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development, Web Programming and web designer.</p>
 
 ###
 
@@ -42,7 +42,7 @@ More Info
 
 ###
 
-<p align="left"><h3> 🌎 Languages</h3><br><br> Portuguese (Native)<br><br> English (B1)<br><br>
+<p align="left"><h3> 🌎 Languages</h3><br> Portuguese (Native)<br> English (B1)<br>
 <h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4></p>
 
 ###
@@ -56,7 +56,7 @@ More Info
 
 ###
 
-<p align="left"><h3> 💻 Technologies & Skills</h3></p>
+<p><h3 align="center"> 💻 Technologies & Skills<br>Knowledge in: Hardware & Software</h3></p>
 
 <div align="center" style="display: inline_block"><br>
   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg" />
@@ -68,11 +68,8 @@ More Info
   
 </div>
 
-<br>
-<p>Knowledge in: Hardware & Software</p>
-
-
-<p align="left"><h3> 🚀 Projects</h3><br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br></p>
+<p><h3 align="center"> 🚀 Projects</h3>
+ <br>🏎️ DrifWiki – A challenge to create an interactive website with animations, providing dynamic car-related content.<br></p>
 
 ###
 
