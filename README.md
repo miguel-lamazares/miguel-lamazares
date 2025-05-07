@@ -38,7 +38,7 @@ More Info
 ###
 
 
-<img align="right" height="150" src="https://github.com/Dexzn08/Dexzn08/blob/main/gif/1.gif?raw=true.gif"  />
+<img align="right" height="150" src="" />
 
 ###
 
