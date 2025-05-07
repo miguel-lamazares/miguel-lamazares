@@ -53,7 +53,7 @@ More Info
 
 
 <br>
-<div>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div>
    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=miguel-lamazares&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10000&theme=dracula&hide_border=true&order=2&custom_title=what%20i%20used%20most%20to%20create%20errors" height="150" alt="languages graph" />
   </div>
