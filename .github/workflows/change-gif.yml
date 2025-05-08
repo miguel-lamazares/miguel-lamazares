@@ -18,8 +18,11 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Instalar dependências
+        run: npm install
+
       - name: Rodar script para atualizar GIF
-        run: npm run changeGif  # Ou o nome correto do seu script
+        run: npm run changeGif  # Isso vai chamar o script changeGif.js
 
       - name: Rodar script para alternar animação
         run: npm run swap

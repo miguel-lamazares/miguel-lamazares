@@ -1,11 +1,9 @@
-const fs = require("fs");
+const fs = require('fs');
 
-const template = fs.readFileSync("animacoes/README.template.md", "utf-8");
-const now = new Date();
-const hour = now.getUTCHours();
-const showPacmen = Math.floor(hour / 6) % 2 === 0;
+// Lê o template README
+const template = fs.readFileSync("README.template.md", "utf-8");
 
-// Funções para comentar e descomentar blocos
+// Função para comentar e descomentar blocos
 function commentBlock(content, id) {
   return content.replace(
     new RegExp(`<div id="${id}">([\\s\\S]*?)<\\/div>`, 'gm'),
@@ -20,8 +18,13 @@ function uncommentBlock(content, id) {
   );
 }
 
+const now = new Date();
+const hour = now.getUTCHours();
+const showPacmen = Math.floor(hour / 6) % 2 === 0;  // Troca a animação a cada 6 horas
+
 let updated = template;
 
+// Alterna entre Pacman e Snake
 if (showPacmen) {
   updated = uncommentBlock(updated, "pacmen");
   updated = commentBlock(updated, "snake");
