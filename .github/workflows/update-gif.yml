@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 */2 * * *"  # Executa a cada 2 horas
 
+permissions:
+  contents: write  # Garante que o GitHub Actions pode fazer commit no repositório
+
 jobs:
   update-gif:
     runs-on: ubuntu-latest
