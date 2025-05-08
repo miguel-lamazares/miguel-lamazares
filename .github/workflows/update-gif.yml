@@ -37,14 +37,18 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          # Verifica se gif_update_log.txt existe, senão cria
+          # Adiciona gif/principal.gif ao commit
+          git add gif/principal.gif
+          
+          # Verifica se o gif_update_log.txt existe e faz o commit do log se necessário
           if [ -f gif/gif_update_log.txt ]; then
             git add gif/gif_update_log.txt
           else
-            echo "Log de atualização não encontrado. Criando o log..." > gif/gif_update_log.txt
+            # Cria o arquivo de log se não existir
+            echo "Log de atualização: $(date)" > gif/gif_update_log.txt
             git add gif/gif_update_log.txt
           fi
-
-          git add gif/principal.gif
+          
+          # Faz commit e push
           git diff --quiet && echo "No changes to commit." || git commit -m "Atualiza principal.gif aleatoriamente"
           git push
