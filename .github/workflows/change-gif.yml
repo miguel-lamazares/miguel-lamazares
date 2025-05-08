@@ -1,12 +1,12 @@
-name: Atualizar GIF aleatório
+name: Alternar Animação e Atualizar GIF
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # A cada 2 horas
-  workflow_dispatch:       # Permite executar manualmente
+    - cron: "0 */6 * * *"  # Executa a cada 6 horas
+  workflow_dispatch:
 
 jobs:
-  update-gif:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,16 +18,18 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Instalar dependências
-        run: npm install
+      - name: Rodar script para atualizar GIF
+        run: npm run changeGif  # Ou o nome correto do seu script
 
-      - name: Executar script
-        run: node changeGif.js
+      - name: Rodar script para alternar animação
+        run: npm run swap
 
       - name: Commit e push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add gif-principal.gif
-          git commit -m "GIF atualizado automaticamente"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Troca de GIF e animação"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
