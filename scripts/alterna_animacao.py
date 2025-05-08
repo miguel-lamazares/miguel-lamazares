@@ -18,14 +18,14 @@ snake_block = '''<div id="snake" align="center">
  <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
 </div>'''
 
-# Alternar entre os blocos
-if pacman_block in content:
-    content = content.replace(pacman_block, snake_block)
-elif snake_block in content:
-    content = content.replace(snake_block, pacman_block)
+    # Alternar entre pacman e snake
+    if pacman_block in content:
+        content = content.replace(pacman_block, snake_block)
+    elif snake_block in content:
+        content = content.replace(snake_block, pacman_block)
 
-# Atualizando o README.md com o novo conteúdo
-with open(readme_path, "w", encoding="utf-8") as file:
-    file.write(content)
-
-print("Conteúdo do README.md alterado com sucesso!")
+    # Atualiza o README.md
+    with open(readme_path, "w", encoding="utf-8") as file:
+        file.write(content)
+else:
+    print(f"O arquivo {readme_path} não foi encontrado.")
