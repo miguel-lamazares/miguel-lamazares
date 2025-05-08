@@ -28,7 +28,7 @@ jobs:
 
       - name: Run update animation script
         run: |
-          python .github/workflows/update-animation/update_animation.py
+          python update-animation.py
 
       - name: Commit and push changes
         run: |

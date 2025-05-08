@@ -28,12 +28,7 @@ jobs:
 
       - name: Run update GIF script
         run: |
-          if [ -f ".github/workflows/update-gif/update_gif.py" ]; then
-            python .github/workflows/update-gif/update_gif.py
-          else
-            echo "Script update_gif.py not found. Please check the path and try again."
-            exit 1
-          fi
+          python update-gif.py
 
       - name: Commit and push changes
         run: |
