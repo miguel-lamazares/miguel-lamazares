@@ -1,34 +1,45 @@
-name: Update Principal GIF
+name: Atualizar principal.gif aleatoriamente
 
 on:
-  workflow_dispatch:  # Permite execução manual
   schedule:
-    - cron: "0 */2 * * *"  # Executa a cada 2 horas
-
-permissions:
-  contents: write  # Garante que o GitHub Actions pode fazer commit no repositório
+    - cron: '0 12 * * *' # Executa diariamente às 12h UTC
+  workflow_dispatch: # Permite executar manualmente
 
 jobs:
   update-gif:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Checkout do repositório
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      - name: Run update animation script
-        run: |
-          python update-gif.py
+    - name: Selecionar e copiar GIF aleatório
+      run: |
+        python3 <<EOF
+        import os
+        import random
+        import shutil
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add gif/principal.gif
-          git diff --quiet && echo "No changes to commit." || git commit -m "Atualiza principal.gif aleatoriamente"
-          git push
+        gif_dir = 'gif'
+        gif_list = [f for f in os.listdir(gif_dir) if f.endswith('.gif') and f != 'principal.gif']
+        if not gif_list:
+            raise Exception("Nenhum gif encontrado para usar.")
+        selected = random.choice(gif_list)
+        shutil.copy(os.path.join(gif_dir, selected), os.path.join(gif_dir, 'principal.gif'))
+        print(f"Selecionado: {selected}")
+        EOF
+
+    - name: Commit e Push se houver mudanças
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add gif/principal.gif
+        git diff --cached --quiet || git commit -m "🤖 Atualiza principal.gif aleatoriamente"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
