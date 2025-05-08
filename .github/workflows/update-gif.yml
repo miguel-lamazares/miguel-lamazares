@@ -20,7 +20,7 @@ jobs:
 
       - name: Run update animation script
         run: |
-          python update-animation.py
+          python update-gif.py
 
       - name: Commit and push changes
         run: |
