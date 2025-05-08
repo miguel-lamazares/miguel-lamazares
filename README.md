@@ -82,7 +82,7 @@ More Info
 </div>
 
 
-<!--<img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />-->
+<img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
 <br clear="both">
 
 <picture>
