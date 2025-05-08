@@ -81,7 +81,7 @@ More Info
 </p>
 </div>
 
-<!--ANIMATION_START>
+<!--ANIMATION_START>-->
 <div id="pacman">
  <picture>
      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
