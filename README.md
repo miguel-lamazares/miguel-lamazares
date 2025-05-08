@@ -81,9 +81,10 @@ More Info
 </p>
 </div>
 
-
-<img align="center" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
+<div align="center">
+<img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
 <br clear="both">
+</div>
 
 <!--<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
