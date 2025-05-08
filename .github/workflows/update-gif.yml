@@ -3,7 +3,7 @@ name: Update Random GIF in README
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"  # Rodar a cada 2 horas
+    - cron: "0 */2 * * *"  # Run every 2 hours
 
 jobs:
   update-gif:
@@ -24,15 +24,15 @@ jobs:
             pip install -r requirements.txt
           else
             echo "No requirements.txt found, skipping dependencies installation."
+          fi  # Ensure the if block ends correctly
 
-      - name: Verificar se o script update-gif.py existe
+      - name: Verify if update-gif.py script exists
         run: |
           if [ ! -f "update-gif.py" ]; then
-            echo "O arquivo update-gif.py não foi encontrado. Certifique-se de adicioná-lo ao repositório."
-            # Adicionando um exemplo de script para evitar falha
-            echo "Placeholder para update-gif.py gerado automaticamente."
-            echo 'print("Script de atualização de GIF executado.")' > update-gif.py
-          fi
+            echo "The update-gif.py file was not found. Ensure it is added to the repository."
+            # Adding a placeholder script to avoid failure
+            echo 'print("GIF update script executed.")' > update-gif.py
+          fi  # Ensure the if block ends correctly
 
       - name: Run update GIF script
         run: |
