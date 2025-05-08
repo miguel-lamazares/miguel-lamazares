@@ -1,0 +1,30 @@
+name: Alternar Animação Pacman/Snake
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"  # A cada 4 horas
+  workflow_dispatch:      # Permite rodar manualmente também
+
+jobs:
+  alternar:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+
+    - name: Rodar script Python para alternar README
+      run: python scripts/alterna_animacao.py
+
+    - name: Commit e Push se houver alterações
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add README.md
+        git diff --quiet && echo "Sem alterações" || git commit -m "Alterna animação README (Snake/Pacman)"
+        git push
