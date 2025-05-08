@@ -25,10 +25,17 @@ jobs:
         run: |
           python update-gif.py
 
+      - name: Verificar conteúdo do principal.gif
+        run: |
+          echo "Verificando o hash do principal.gif..."
+          md5sum gif/principal.gif
+          file gif/principal.gif
+          ls -lh gif/principal.gif
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add gif/principal.gif
+          git add gif/principal.gif gif/gif_update_log.txt
           git diff --quiet && echo "No changes to commit." || git commit -m "Atualiza principal.gif aleatoriamente"
           git push
