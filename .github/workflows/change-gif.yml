@@ -1,0 +1,37 @@
+name: Alternar Animação e Atualizar GIF
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"  # Executa a cada 4 horas
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Atualizar GIF e alternar animação
+        run: |
+          # Executa o script para atualizar o GIF
+          npm run changeGif
+          # Alterna animações no README.md
+          npm run swap
+
+      - name: Commit e push se houver alterações
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "Atualização de GIF e animação" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
