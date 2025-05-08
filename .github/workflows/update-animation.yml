@@ -3,11 +3,12 @@ name: Update Animation in README
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 */2 * * *"  # Executa a cada 2 horas
 
 jobs:
   update-animation:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -24,10 +25,10 @@ jobs:
           echo "Files in directory:"
           ls -la
 
-      - name: Debug update-animation.py
+      - name: Debug update-animation.py presence
         run: |
           if [ -f "update-animation.py" ]; then
-            echo "update-animation.py content:"
+            echo "update-animation.py found."
             cat update-animation.py
           else
             echo "update-animation.py not found."
@@ -42,20 +43,13 @@ jobs:
           else
             echo "No requirements.txt found, skipping dependencies installation."
 
-      - name: Check and run update animation script
-        run: |
-          if [ -f "update-animation.py" ]; then
-            python update-animation.py
-          else
-            echo "update-animation.py not found, skipping script execution."
-            exit 1
-          fi
+      - name: Run update animation script
+        run: python update-animation.py
 
       - name: Commit and push changes
-        if: success()
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Update animation in README" || echo "No changes to commit"
+          git diff --quiet && echo "No changes to commit." || git commit -m "Update animation in README"
           git push
