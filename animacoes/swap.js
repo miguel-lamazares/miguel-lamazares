@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const template = fs.readFileSync("README.template.md", "utf-8");
+const template = fs.readFileSync("animacoes/README.template.md", "utf-8");
 const now = new Date();
 const hour = now.getUTCHours();
 const showPacmen = Math.floor(hour / 6) % 2 === 0;

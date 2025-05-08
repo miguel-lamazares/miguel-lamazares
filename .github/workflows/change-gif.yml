@@ -2,7 +2,7 @@ name: Alternar Animação e Atualizar GIF
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Executa a cada 6 horas
+    - cron: "0 */1 * * *"  # Executa a cada 1 hora
   workflow_dispatch:
 
 jobs:
