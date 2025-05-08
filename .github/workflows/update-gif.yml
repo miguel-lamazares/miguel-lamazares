@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Run update animation script
+      - name: Run update GIF script
         run: |
           python update-gif.py
 
