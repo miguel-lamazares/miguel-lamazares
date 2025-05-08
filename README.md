@@ -91,10 +91,9 @@ More Info
 </div>
 
 <!-- Animação Snake -->
-
-<div id="snake" align="center">
+<!--<div id="snake" align="center">
  <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
-</div>
+</div>-->
 
 
 ###
