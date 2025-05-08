@@ -1,32 +1,31 @@
-import os
-
+# Caminho do README.md
 readme_path = "README.md"
 
-# Verifica se o arquivo README.md existe
-if os.path.exists(readme_path):
-    with open(readme_path, "r", encoding="utf-8") as file:
-        content = file.read()
+# Leitura do conteúdo do arquivo README.md
+with open(readme_path, "r", encoding="utf-8") as file:
+    content = file.read()
 
-    pacman_block = '''<div id="pacman">
-    <picture>
-         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
-         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
-        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
-    </picture>
-    </div>'''
+# Blocos de código para Pacman e Snake
+pacman_block = '''<div id="pacman">
+<picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
+     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
+</picture>
+</div>'''
 
-    snake_block = '''<div id="snake" align="center">
-     <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
-    </div>'''
+snake_block = '''<div id="snake" align="center">
+ <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
+</div>'''
 
-    # Alternar entre pacman e snake
-    if pacman_block in content:
-        content = content.replace(pacman_block, snake_block)
-    elif snake_block in content:
-        content = content.replace(snake_block, pacman_block)
+# Alternar entre os blocos
+if pacman_block in content:
+    content = content.replace(pacman_block, snake_block)
+elif snake_block in content:
+    content = content.replace(snake_block, pacman_block)
 
-    # Atualiza o README.md
-    with open(readme_path, "w", encoding="utf-8") as file:
-        file.write(content)
-else:
-    print(f"O arquivo {readme_path} não foi encontrado.")
+# Atualizando o README.md com o novo conteúdo
+with open(readme_path, "w", encoding="utf-8") as file:
+    file.write(content)
+
+print("Conteúdo do README.md alterado com sucesso!")
