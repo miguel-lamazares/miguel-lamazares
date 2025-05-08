@@ -1,6 +1,7 @@
 name: Update Animation in README
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *"  # Rodar a cada 2 horas
 
