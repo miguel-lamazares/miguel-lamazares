@@ -113,7 +113,7 @@ More Info
 [![Discord](https://img.shields.io/badge/Discord-69239e?style=for-the-badge&logo=discord&logoColor=000000)](https://discord.com/users/1052760246906527775)
 [![Gmail](https://img.shields.io/badge/email-69239e?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:contatomiguellamazares@gmail.com)
 [![Github](https://img.shields.io/badge/github-69239e?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/miguel-lamazares)
-[![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)](wa.link/4juetm)
+[![Whatsapp](https://img.shields.io/badge/whastapp-69239e?style=for-the-badge&logo=WhatsApp&logoColor=000000)](https://wa.me/5524992007353)
 [![Linktree](https://img.shields.io/badge/linktree-69239e?style=for-the-badge&logo=linktree&logoColor=000000)](https://linktr.ee/dexzn)
 
 </div>
