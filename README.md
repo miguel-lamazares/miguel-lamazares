@@ -14,7 +14,7 @@
 <br>
 
 <div align="center" id="gif-conteiner">
-<img heigth="150" src="gif-principal.gif" alt="randow-gif"/>
+<img heigth="150" src="2.gif" alt="randow-gif"/>
 </div>
 
 <br>
@@ -81,7 +81,7 @@ More Info
 </p>
 </div>
 
-<!--ANIMATION_START>-->
+
 <div id="pacman">
  <picture>
      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
@@ -94,7 +94,7 @@ More Info
 <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
 <br clear="both">
 </div>-->
-<!--ANIMATION_END-->
+
 ###
 </details>
 
