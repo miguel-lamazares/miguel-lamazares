@@ -18,33 +18,21 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Debug file paths
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in directory:"
-          ls -la
-
-      - name: Debug update-animation.py presence
-        run: |
-          if [ -f "update-animation.py" ]; then
-            echo "update-animation.py found."
-            cat update-animation.py
-          else
-            echo "update-animation.py not found."
-            exit 1
-          fi
-
       - name: Install dependencies (if requirements.txt exists)
         run: |
           python -m pip install --upgrade pip
           if [ -f "requirements.txt" ]; then
             pip install -r requirements.txt
-          else
-            echo "No requirements.txt found, skipping dependencies installation."
+          fi
 
       - name: Run update animation script
-        run: python update-animation.py
+        run: |
+          if [ -f "update-animation.py" ]; then
+            python update-animation.py
+          else
+            echo "update-animation.py not found, skipping script execution."
+            exit 1
+          fi
 
       - name: Commit and push changes
         run: |
