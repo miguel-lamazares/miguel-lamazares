@@ -17,10 +17,14 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
+      - name: Install dependencies (if requirements.txt exists)
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          else
+            echo "No requirements.txt found, skipping dependencies installation."
+          fi
 
       - name: Run update animation script
         run: |
