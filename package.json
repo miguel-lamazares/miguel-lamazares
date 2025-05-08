@@ -4,6 +4,8 @@
   "main": "changeGif.js",
   "license": "MIT",
   "scripts": {
-    "swap": "node swap.js"
-  }
+  "swap": "node swap.js",
+  "changeGif": "node changeGif.js"
+}
+
 }
