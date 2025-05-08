@@ -22,7 +22,7 @@ jobs:
 
       - name: Run update script
         run: |
-          python .github/workflows/update-gif/update_gif.py
+          python update_gif.py
           
       - name: Commit changes
         run: |

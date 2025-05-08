@@ -22,7 +22,7 @@ jobs:
 
       - name: Run animation toggle script
         run: |
-          python .github/workflows/update-animation/update_animation.py
+          python update_animation.py
           
       - name: Commit changes
         run: |
