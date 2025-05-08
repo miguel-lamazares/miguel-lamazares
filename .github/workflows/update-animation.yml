@@ -1,0 +1,31 @@
+name: Update Animation in README
+
+on:
+  workflow_dispatch:  # Permite execução manual
+  schedule:
+    - cron: "0 */2 * * *"  # Executa a cada 2 horas
+
+jobs:
+  update-animation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run update animation script
+        run: |
+          python update-animation.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git diff --quiet && echo "No changes to commit." || git commit -m "Update animation in README"
+          git push
