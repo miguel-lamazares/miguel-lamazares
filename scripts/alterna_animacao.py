@@ -19,14 +19,24 @@ if os.path.exists(readme_path):
      <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
     </div>'''
 
-    # Alternar entre pacman e snake
+    print("Conteúdo original do README:")
+    print(content)
+
+    # Verificar se o bloco Pacman está presente
     if pacman_block in content:
+        print("Bloco Pacman encontrado, substituindo por Snake.")
         content = content.replace(pacman_block, snake_block)
     elif snake_block in content:
+        print("Bloco Snake encontrado, substituindo por Pacman.")
         content = content.replace(snake_block, pacman_block)
+    else:
+        print("Nenhum bloco encontrado no README.md!")
 
     # Atualiza o README.md
     with open(readme_path, "w", encoding="utf-8") as file:
         file.write(content)
+
+    print("Novo conteúdo do README:")
+    print(content)
 else:
     print(f"O arquivo {readme_path} não foi encontrado.")
