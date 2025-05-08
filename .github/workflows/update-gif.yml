@@ -26,6 +26,13 @@ jobs:
             echo "No requirements.txt found, skipping dependencies installation."
           fi
 
+      - name: Verificar se o script update-gif.py existe
+        run: |
+          if [ ! -f "update-gif.py" ]; then
+            echo "O arquivo update-gif.py não foi encontrado. Certifique-se de adicioná-lo ao repositório."
+            exit 1
+          fi
+
       - name: Run update GIF script
         run: |
           python update-gif.py
