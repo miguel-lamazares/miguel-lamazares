@@ -2,7 +2,7 @@ name: Alternar Animação e Atualizar GIF
 
 on:
   schedule:
-    - cron: "0 */1 * * *"  # Executa a cada 1 hora
+    - cron: "0 */2 * * *"  # Executa a cada 4 horas
   workflow_dispatch:
 
 jobs:
@@ -21,18 +21,17 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Rodar script para atualizar GIF
-        run: npm run changeGif  # Isso vai chamar o script changeGif.js
-
-      - name: Rodar script para alternar animação
-        run: npm run swap
-
-      - name: Commit e push
+      - name: Atualizar GIF e alternar animação
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "Troca de GIF e animação"
-          git push
+          # Executa o script para atualizar o GIF
+          npm run changeGif
+          # Alterna animações no README.md
+          npm run swap
+
+      - name: Commit e push se houver alterações
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "Atualização de GIF e animação" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
