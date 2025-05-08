@@ -9,26 +9,27 @@ jobs:
   update-animation:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.x
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Run animation toggle script
+      - name: Run update animation script
         run: |
-          python update_animation.py
-          
-      - name: Commit changes
+          python .github/workflows/update-animation/update_animation.py
+
+      - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Alternando animação no README"
+          git add .
+          git commit -m "Update animation in README" || echo "No changes to commit"
           git push
