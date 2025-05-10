@@ -1,0 +1,54 @@
+name: Atualizar README a cada 2 horas
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # A cada 2 horas
+  workflow_dispatch:  # Para rodar manualmente, se necessário
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out o repositório
+      uses: actions/checkout@v2
+
+    - name: Atualizar conteúdo no README
+      run: |
+        # Pega o conteúdo atual do README
+        README_FILE="README.md"
+
+        # Define os blocos de código
+        snake_code='
+        <div id="snake" align="center">
+          <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
+        </div>
+        '
+
+        pacman_code='
+        <div id="pacman">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
+            <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
+          </picture>
+        </div>
+        '
+
+        # Define qual código será mostrado baseado no horário (alternando)
+        current_time=$(date +%H)
+        if [ $(($current_time % 2)) -eq 0 ]; then
+          code_to_insert="$snake_code"
+        else
+          code_to_insert="$pacman_code"
+        fi
+
+        # Substitui o conteúdo entre os comentários no README
+        sed -i "s|<!--animacoes-->.*<!--fim-animacoes-->|<!--animacoes-->\n$code_to_insert\n<!--fim-animacoes-->|g" $README_FILE
+
+        # Faz commit da mudança no README
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add $README_FILE
+        git commit -m "Atualiza animação no README"
+        git push
