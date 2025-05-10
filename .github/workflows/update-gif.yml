@@ -1,8 +1,8 @@
-name: Atualizar principal.gif aleatoriamente
+name: Random GIF Updater
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Executa diariamente às 12h UTC
+    - cron: '0 */2 * * *' # Executa a cada 2 horas
   workflow_dispatch: # Permite executar manualmente
 
 jobs:
@@ -39,7 +39,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add gif/principal.gif
-        git diff --cached --quiet || git commit -m "🤖 Atualiza principal.gif aleatoriamente"
+        git diff --cached --quiet || git commit -m "🤖 randow gif updated"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,4 +1,4 @@
-name: Atualizar README a cada 2 horas
+name: alternate animations
 
 on:
   schedule:
@@ -15,17 +15,19 @@ jobs:
 
     - name: Atualizar conteúdo no README
       run: |
-        # Pega o conteúdo atual do README
+        # Define o arquivo README
         README_FILE="README.md"
 
-        # Define os blocos de código
-        snake_code='
+        # Bloco de código para "Snake"
+        snake_code=$(cat << 'EOF'
         <div id="snake" align="center">
           <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
         </div>
-        '
+        EOF
+        )
 
-        pacman_code='
+        # Bloco de código para "Pacman"
+        pacman_code=$(cat << 'EOF'
         <div id="pacman">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
@@ -33,9 +35,10 @@ jobs:
             <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
           </picture>
         </div>
-        '
+        EOF
+        )
 
-        # Define qual código será mostrado baseado no horário (alternando)
+        # Alterna entre os blocos baseado no horário
         current_time=$(date +%H)
         if [ $(($current_time % 2)) -eq 0 ]; then
           code_to_insert="$snake_code"
@@ -43,12 +46,17 @@ jobs:
           code_to_insert="$pacman_code"
         fi
 
-        # Substitui o conteúdo entre os comentários no README
-        sed -i "s|<!--animacoes-->.*<!--fim-animacoes-->|<!--animacoes-->\n$code_to_insert\n<!--fim-animacoes-->|g" $README_FILE
+        # Substitui o conteúdo entre os marcadores no README.md
+        awk -v replacement="$code_to_insert" '
+          BEGIN { inside = 0 }
+          /<!--animacoes-->/ { inside = 1; print $0; print replacement; next }
+          /<!--fim-animacoes-->/ { inside = 0 }
+          !inside { print $0 }
+        ' "$README_FILE" > tmpfile && mv tmpfile "$README_FILE"
 
-        # Faz commit da mudança no README
+        # Faz commit e push das mudanças
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add $README_FILE
-        git commit -m "Atualiza animação no README"
+        git add "$README_FILE"
+        git commit -m "🤖 update animation"
         git push
