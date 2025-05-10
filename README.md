@@ -45,7 +45,7 @@ More Info
 <p>
  <h3 align="center"> 🌎 Languages</h3>
 <div align="center"> 
- <br> Portuguese (Native) Spanish (A2)
+ <br> Portuguese (Native)   Spanish (A2)
  <br> English (B1) <br>
 <h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4>
 </div>
