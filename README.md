@@ -47,6 +47,7 @@ More Info
 <div align="center"> 
  <br> Portuguese (Native)
  <br> English (B1) <br>
+ <br> Spanish (A2) <br>
 <h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4>
 </div>
 </p>
