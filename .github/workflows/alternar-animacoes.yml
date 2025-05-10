@@ -72,6 +72,14 @@ jobs:
         if ! git diff --exit-code; then
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+
+          # Verifica se a variável README_FILE está definida
+          if [ -z "$README_FILE" ]; then
+            echo "README_FILE não está definido. Verifique o fluxo do script."
+            exit 1
+          fi
+
+          # Adiciona mudanças e faz commit
           git add "$README_FILE"
           git commit -m "🤖 update animation"
           git push
