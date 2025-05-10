@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 */2 * * *'  # A cada 2 horas
   workflow_dispatch:  # Para rodar manualmente, se necessário
+    inputs:
+      animation:  # Entrada para definir qual animação usar manualmente
+        description: 'Escolha a animação a ser inserida: snake ou pacman'
+        required: false
+        default: ''
 
 jobs:
   update_readme:
@@ -38,12 +43,19 @@ jobs:
         EOF
         )
 
-        # Alterna entre os blocos baseado no horário
-        current_time=$(date +%H)
-        if [ $(($current_time % 2)) -eq 0 ]; then
+        # Determina a animação a ser usada
+        if [[ "${{ github.event.inputs.animation }}" == "snake" ]]; then
           code_to_insert="$snake_code"
-        else
+        elif [[ "${{ github.event.inputs.animation }}" == "pacman" ]]; then
           code_to_insert="$pacman_code"
+        else
+          # Alterna entre os blocos baseado no horário se não for manual
+          current_time=$(date +%H)
+          if [ $(($current_time % 2)) -eq 0 ]; then
+            code_to_insert="$snake_code"
+          else
+            code_to_insert="$pacman_code"
+          fi
         fi
 
         # Substitui o conteúdo entre os marcadores no README.md
@@ -54,13 +66,9 @@ jobs:
           !inside { print $0 }
         ' "$README_FILE" > tmpfile && mv tmpfile "$README_FILE"
 
-    - name: Commit and push changes if any
-      run: |
+        # Faz commit e push das mudanças
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        if [ -n "$(git status --porcelain)" ]; then
-          git add "$README_FILE"
-          git commit -m "🤖 update animation"
-          git push
-        else
-          echo "No changes to commit."
+        git add "$README_FILE"
+        git commit -m "🤖 update animation"
+        git push
