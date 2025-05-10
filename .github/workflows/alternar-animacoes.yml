@@ -2,67 +2,56 @@ name: alternate animations
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch:
-    inputs:
-      animation:
-        description: 'Escolha a animação a ser inserida: snake ou pacman'
-        required: false
-        default: ''
+    - cron: '0 */2 * * *'  # Executa a cada 2 horas
+  workflow_dispatch:  # Permite execução manual
 
 jobs:
-  update_readme:
+  swap_sections:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: Checkout do repositório
       uses: actions/checkout@v2
 
-    - name: Update README
+    - name: Alternar códigos no README.md
       run: |
+        # Define o arquivo README
         README_FILE="README.md"
-        snake_code=$(cat << 'EOF'
-        <div id="snake" align="center">
-          <img src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/snake.svg" alt="Snake animation" />
-        </div>
-        EOF
-        )
-        pacman_code=$(cat << 'EOF'
-        <div id="pacman">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
-            <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph.svg">
-          </picture>
-        </div>
-        EOF
-        )
-        if [[ "${{ github.event.inputs.animation }}" == "snake" ]]; then
-          code_to_insert="$snake_code"
-        elif [[ "${{ github.event.inputs.animation }}" == "pacman" ]]; then
-          code_to_insert="$pacman_code"
-        else
-          current_time=$(date +%H)
-          if [ $(($current_time % 2)) -eq 0 ]; then
-            code_to_insert="$snake_code"
-          else
-            code_to_insert="$pacman_code"
-          fi
-        fi
-        awk -v replacement="$code_to_insert" '
+
+        # Extrai o conteúdo do bloco <!--animacoes-->
+        current_animation=$(awk '
           BEGIN { inside = 0 }
-          /<!--animacoes-->/ { inside = 1; print $0; print replacement; next }
-          /<!--fim-animacoes-->/ { inside = 0 }
-          !inside { print $0 }
+          /<!--animacoes-->/ { inside = 1; next }
+          /<!--fim-animacoes-->/ { inside = 0; next }
+          inside { print }
+        ' "$README_FILE")
+
+        # Extrai o conteúdo do bloco <!--codigo-comentado-->
+        current_commented=$(awk '
+          BEGIN { inside = 0 }
+          /<!--codigo-comentado-->/ { inside = 1; next }
+          /<!--fim-codigo-comentado-->/ { inside = 0; next }
+          inside { print }
+        ' "$README_FILE")
+
+        # Substitui os blocos
+        awk -v anim="$current_commented" -v commented="$current_animation" '
+          BEGIN { inside_anim = 0; inside_commented = 0 }
+          /<!--animacoes-->/ { inside_anim = 1; print; print anim; next }
+          /<!--fim-animacoes-->/ { inside_anim = 0 }
+          /<!--codigo-comentado-->/ { inside_commented = 1; print; print commented; next }
+          /<!--fim-codigo-comentado-->/ { inside_commented = 0 }
+          !inside_anim && !inside_commented { print }
         ' "$README_FILE" > tmpfile && mv tmpfile "$README_FILE"
 
-    - name: Commit changes
+    - name: Commitar mudanças
       run: |
+        # Verifica se há mudanças no arquivo
         if ! git diff --exit-code; then
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add "$README_FILE"
-          git commit -m "🤖 update animation"
+          git commit -m "🤖 Alterna códigos entre animações"
           git push
         else
-          echo "No changes to commit."
+          echo "Nenhuma alteração detectada."
