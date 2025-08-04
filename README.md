@@ -33,7 +33,9 @@ More Info
 </summary>
 
 <p>
- <h3 align="center">About Me 🧠</h3> <br>I'm a Computer Science student passionate about technology and programming. Currently, I'm improving my skills in HTML, CSS, and JavaScript while exploring Game Development, Web Programming and web designer.</p>
+ <h3 align="center">About Me 🧠</h3> <br>I'm Miguel Lamazares, a Computer Science student. I really like technology from hardware to software. 🖥️ 🛠️<br> 
+ I believe I made the right choice by learning Java and MySQL, but I'm also very passionate about front-end and game development. ☕ 🐘<br>
+ I'm not only studying programming, I'm also learning English and Spanish. 🇺🇸 🇪🇸</p>
 
 ###
 
