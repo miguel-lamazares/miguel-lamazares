@@ -33,9 +33,12 @@ More Info
 </summary>
 
 <p>
- <h3 align="center">About Me 🧠</h3> <br>I'm Miguel Lamazares, a Computer Science student. I really like technology from hardware to software. 🖥️ 🛠️<br> 
- I believe I made the right choice by learning Java and MySQL, but I'm also very passionate about front-end and game development. ☕ 🐘<br>
- I'm not only studying programming, I'm also learning English and Spanish. 🇺🇸 🇪🇸</p>
+ <h3 align="center">About Me 🧠</h3> 
+ <br>
+ <div align="center"> I'm Miguel Lamazares, a Computer Science student. I really like technology from hardware to software. 🖥️ 🛠️</div>
+ <div align="center">I believe I made the right choice by learning Java and MySQL, but I'm also very passionate about front-end and game development. ☕ 🐘</div>
+ <div align="center">I'm not only studying programming, I'm also learning English and Spanish. 🇺🇸 🇪🇸</div>
+ </p>
 
 ###
 
@@ -72,6 +75,7 @@ More Info
   <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" /> 
  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" />
  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/MySQL-Dark.svg" />
+ <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Kali-Dark.svg" />
  
   
 </div>
