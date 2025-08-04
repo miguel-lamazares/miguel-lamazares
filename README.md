@@ -43,7 +43,7 @@ More Info
 ###
 
 
-<img align="right" height="150" src="gif/1.gif"/>
+<img align="right" height="150" src="gif/14.gif"/>
 
 ###
 
