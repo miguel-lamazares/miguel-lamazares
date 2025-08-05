@@ -4,6 +4,7 @@
  <samp>
  <b>コンピュータサイエンス</b>
  <br>👋 Hello, I'm Miguel Lamazares<br>
+  Pero, ¿cómo puedo ayudarlo?
  </samp>
 </div>
 <div align="center">
