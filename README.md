@@ -7,9 +7,6 @@
   Pero, ¿cómo puedo ayudarlo?
  </samp>
 </div>
-<div align="center">
-  <img src="https://profile-counter.glitch.me/miguel-lamazares/count.svg?">
-</div>
 
 <br>
 <br>
@@ -51,8 +48,8 @@ More Info
 <p>
  <h3 align="center"> 🌎 Languages</h3>
 <div align="center"> 
- <br> Portuguese (Native)   Spanish (A2)
- <br> English (B1) <br>
+ <br> Portuguese (Native)   Spanish (Mid)
+ <br> English (Mid) <br>
 <h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4>
 </div>
 </p>
