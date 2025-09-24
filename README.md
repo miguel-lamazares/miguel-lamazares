@@ -74,6 +74,7 @@ More Info
  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" />
  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/MySQL-Dark.svg" />
  <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Kali-Dark.svg" />
+ <img width="40" src="https://github.com/miguel-lamazares/skill-icons/blob/main/icons/Docker.svg" />
  
   
 </div>
