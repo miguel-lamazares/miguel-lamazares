@@ -48,7 +48,7 @@ More Info
 <p>
  <h3 align="center"> 🌎 Languages</h3>
 <div align="center"> 
- <br><img width="40" src="/Flags/USA.png"><img width="40" src="/Flags/ESP.png"><img width="40" src="/Flags/BRA.png"> <br>
+ <br><img width="40" src="/Flags/UK.png"><img width="40" src="/Flags/ESP.png"><img width="40" src="/Flags/BRA.png"> <br>
 <h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4>
 </div>
 </p>
