@@ -48,8 +48,7 @@ More Info
 <p>
  <h3 align="center"> 🌎 Languages</h3>
 <div align="center"> 
- <br> Portuguese (Native)   Spanish (Mid)
- <br> English (Mid) <br>
+ <br><img src="/Flags/USA.png"><img src="/Flags/ESP.png"><img src="/Flags/BRA.png"> <br>
 <h4> Spanish/Brazilian Citizenship 🛂 🇪🇸/🇧🇷</h4>
 </div>
 </p>
