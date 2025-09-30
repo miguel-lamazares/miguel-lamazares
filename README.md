@@ -88,7 +88,7 @@ shortly<br>
 </p>
 </div>
 
-<!--animacoes-->
+<!--animacoes
 <div id="pacman">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miguel-lamazares/miguel-lamazares/output/pacman-contribution-graph-dark.svg">
