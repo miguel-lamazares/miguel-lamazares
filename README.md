@@ -79,6 +79,8 @@ More Info
  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg"/>
  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Figma-Dark.svg"/>
   <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Selenium.svg"/>
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Php.svg"/>
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/MariaDB.svg"/>
   
 </div>
 
