@@ -5,6 +5,9 @@
  <b>コンピュータサイエンス</b>
  <br>👋 Hello, I'm Miguel Lamazares<br>
   Pero, ¿cómo puedo ayudarlo?
+  <div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=miguel-lamazares.miguel-lamazares&"  />
+</div>
  </samp>
 </div>
 
