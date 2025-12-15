@@ -21,7 +21,7 @@
 <br>
 <br>
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&pause=1000&color=6E2169&center=true&width=435&lines=I'm+a+computer+science+student;I'm+studying+Java+and+database" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&pause=1000&color=6E2169&center=true&width=435&lines=I'm+a+computer+science+student;I'm+studying+Java+or+almost+that+:)" alt="Typing SVG" /></a>
 </div>
 
 <details>
