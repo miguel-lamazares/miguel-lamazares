@@ -36,9 +36,7 @@ More Info
 <p>
  <h3 align="center">About Me 🧠</h3> 
  <br>
- <div align="center"> I'm Miguel Lamazares, a Computer Science student. I really like technology from hardware to software. 🖥️ 🛠️</div>
- <div align="center">I believe I made the right choice by learning Java and MySQL, but I'm also very passionate about front-end and game development. ☕ 🐘</div>
- <div align="center">I'm not only studying programming, I'm also learning English and Spanish. 🇺🇸 🇪🇸</div>
+ <div align="center"> I'm Miguel Lamazares, a computer science student, i get love technology</div>
  </p>
 
 ###
@@ -88,8 +86,7 @@ More Info
 <div align="center">
 <p>
  <h3> 🚀 Projects</h3>
- <br>A big project will arrive 
-shortly<br>
+ <br>Gif2Asc<br>
 </p>
 </div>
 
