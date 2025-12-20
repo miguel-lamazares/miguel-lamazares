@@ -36,7 +36,7 @@ More Info
 <p>
  <h3 align="center">About Me 🧠</h3> 
  <br>
- <div align="center"> I'm Miguel Lamazares, a computer science student, i get love technology</div>
+ <div align="center"> I'm Miguel Lamazares, a computer science student, i get love technology since hardware to software</div>
  </p>
 
 ###
