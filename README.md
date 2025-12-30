@@ -36,7 +36,12 @@ More Info
 <p>
  <h3 align="center">About Me 🧠</h3> 
  <br>
- <div align="center"> I'm Miguel Lamazares, a computer science student, i get love technology since hardware to software</div>
+ <div align="center"> I'm a Computer Science student with a strong interest in backend development.
+
+I enjoy working close to the system, building APIs, handling authentication, and improving code quality.  
+Currently studying and developing projects with Java, relational databases, Git, and Linux.
+
+I'm looking for an internship opportunity where I can learn, contribute, and grow as a software developer.</div>
  </p>
 
 ###
@@ -49,6 +54,7 @@ More Info
 <p>
  <h3 align="center"> 🌎 Languages</h3>
 <div align="center"> 
+Portuguese • Spanish • English
  <br><img width="40" src="/Flags/UK.png"><img width="40" src="/Flags/ESP.png"><img width="40" src="/Flags/BRA.png"> <br>
 </div>
 </p>
@@ -63,7 +69,8 @@ More Info
 
 ###
 
-<p><h3 align="center"> 💻 Technologies & Skills<br>Knowledge in: Hardware & Software</h3></p>
+<p><h3 align="center">💻 Technologies & Skills  
+Backend & Software Development</h3></p>
 
 <div align="center" style="display: inline_block"><br>
   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/HTML.svg" />
@@ -86,7 +93,7 @@ More Info
 <div align="center">
 <p>
  <h3> 🚀 Projects</h3>
- <br>**Gif2Asc**  
+ <br>Gif2Asc -
 A tool that converts Midias (Gifs, videos, images or also you may download something by web) into ASCII animations for terminal display.  
 Focus on image processing, performance, and terminal rendering.<br>
 </p>
