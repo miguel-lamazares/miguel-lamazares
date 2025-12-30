@@ -86,7 +86,9 @@ More Info
 <div align="center">
 <p>
  <h3> 🚀 Projects</h3>
- <br>Gif2Asc<br>
+ <br>**Gif2Asc**  
+A tool that converts Midias (Gifs, videos, images or also you may download something by web) into ASCII animations for terminal display.  
+Focus on image processing, performance, and terminal rendering.<br>
 </p>
 </div>
 
