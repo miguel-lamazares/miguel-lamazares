@@ -55,7 +55,7 @@ I'm looking for an internship opportunity where I can learn, contribute, and gro
 <p>
  <h3 align="center"> 🌎 Languages</h3>
 <div align="center"> 
-Portuguese • Spanish • English
+English • Spanish • Portuguese
  <br><img width="40" src="/Flags/UK.png"><img width="40" src="/Flags/ESP.png"><img width="40" src="/Flags/BRA.png"> <br>
 </div>
 </p>
