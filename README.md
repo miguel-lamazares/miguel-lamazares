@@ -48,7 +48,7 @@ I'm looking for an internship opportunity where I can learn, contribute, and gro
 ###
 
 
-<img align="right" height="150" src="gif/14.gif"/>
+<img align="right" height="150" src="./Flags/tux-linux-penguin.gif"/>
 
 ###
 
