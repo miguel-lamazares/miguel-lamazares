@@ -95,8 +95,9 @@ Backend & Software Development</h3></p>
 <p>
  <h3> 🚀 Projects</h3>
  Gif2Asc<br>
-A tool that converts Midias (Gifs, videos, images or also you may download something by web) into ASCII animations for terminal display.  
+<p>A tool that converts Midias (Gifs, videos, images or also you may download something by web) into ASCII animations for terminal display.  
 Focus on image processing, performance, and terminal rendering.<br>
+</p>
 </p>
 </div>
 
